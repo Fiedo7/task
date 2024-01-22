@@ -2,6 +2,7 @@ Task description:
 1. Design API which allows to create a task, list all tasks, read the status and the results of the task
 2. When the task is created the customer receives the unique id of the task
 3. The customer can check the status and the results of the task using the received id
+
 Functional requirements:
 • Task accepts two strings as the parameters: the pattern and the input
 • Task should find the first best match – position of the pattern in the input with the least number of
