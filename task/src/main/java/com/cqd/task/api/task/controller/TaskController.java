@@ -28,7 +28,7 @@ public class TaskController {
     }
 
     @GetMapping
-    public ResponseEntity<List<TaskResponseDto>> getAllTasks() {
+    public ResponseEntity<List<TaskResponseDto>> getAllTasks() { // TODO add filtering - sorting - paging
         List<TaskResponseDto> taskDTOs = taskService.getAllTasks();
         return ResponseEntity.ok(taskDTOs);
     }
